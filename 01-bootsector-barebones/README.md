@@ -60,3 +60,15 @@ I know you're anxious to try it out (I am!), so let's do it:
 You will see a window open which says "Booting from Hard Disk..." and
 nothing else. When was the last time you were so excited to see an infinite
 loop? ;-)
+
+.
+
+如果使用Quem 會產生 Warning 的情況
+
+```
+WARNING: Image format was not specified for 'boot_sect_simple.bin' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+```
+
+換成 qemu-system-x86_64 -drive format=raw,file=boot_sect_simple.bin 指令來使用
