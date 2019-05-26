@@ -11,3 +11,13 @@ Don't use the Xcode developer tools `nasm` if you have them installed, they won'
 
 On some systems qemu is split into multiple binaries. You may want
 to call `qemu-system-x86_64 binfile`
+
+.
+
+如果安裝失敗可以查看這裡 :
+
+http://macappstore.org/nasm/
+
+Mac 上面的quem 需要另外安裝 : 
+
+https://www.qemu.org/download/#macos
